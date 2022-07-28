@@ -48,3 +48,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
+          plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_KEY }}
+          plugin_wakatime_user: c0dermo
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graph, editors, editors-graphs, os, os-graphs
