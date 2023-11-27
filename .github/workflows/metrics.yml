@@ -64,5 +64,5 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           sudo mv /metrics_renders/* ./
           git add .
-          if [ $(git log --format=%ae -n 1) != 'c0derMo@users.noreply.github.com' ]; then git commit -m "chore: push metrics"; else git comit --amend -m "chore: push metrics"; fi
+          if [ $(git log --format=%ae -n 1) != 'c0derMo@users.noreply.github.com' ]; then git commit -m "chore: push metrics"; else git commit --amend -m "chore: push metrics"; fi
           git push --force
