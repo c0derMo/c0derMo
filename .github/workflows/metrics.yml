@@ -56,7 +56,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_KEY }}
           plugin_wakatime_url: ${{ secrets.WAKATIME_URL }}
-          plugin_wakatime_user: c0dermo
+          plugin_wakatime_user: TheMoritz
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graph, editors, editors-graphs, os, os-graphs
       - name: Squashing last commits
         run: |
